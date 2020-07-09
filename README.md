@@ -2,7 +2,7 @@
 
 This module includes a Python Notebook defining, fitting, and saving a neural network model to predict the success of Alphabet Soup's ventures.
 
-The model I saved as "trained_model.h5" uses 33 input columns, into a dense hidden layer of 10 ReLU nodes, into a dense hidden layer of 6 ReLU nodes, into a single sigmoid output layer.
+The model I saved as "trained_model.h5" uses 33 input columns, into a dense hidden layer of 10 Tanh nodes, into a dense hidden layer of 6 Tanh nodes, into a single sigmoid output layer. In total, the model has 413 trainable parameters.
 
 The model went through 100 epochs of fitting.
 
